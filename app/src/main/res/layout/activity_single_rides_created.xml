@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".EventDescription">-->
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+<!-- detailed_event_info.xml -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/rideDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:text="Start stop Location"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/driverNameDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Driver Name"
+        android:layout_below="@id/rideDetail"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/driverPhoneDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Driver Phone"
+        android:layout_below="@id/driverNameDetail"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/dateTimeDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Date and Time"
+        android:layout_below="@id/driverPhoneDetail"
+        android:layout_marginBottom="16dp"/>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@id/dateTimeDetail"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/pickupTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:text="Passengers"
+        android:layout_below="@id/divider"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- RecyclerView to display list of pickups -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewPassengers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pickupTitle"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"/>
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@id/recyclerViewPassengers"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_below="@id/divider2">
+
+    </LinearLayout>
+
+
+</RelativeLayout>

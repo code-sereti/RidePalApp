@@ -1,0 +1,53 @@
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".AccountSettings"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/contentBodyColor">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="30dp">
+
+            <TextView
+                style="@style/viewParent.headerText"
+                android:id="@+id/back_home"
+                app:drawableStartCompat="@drawable/baseline_arrow_back_24"
+                android:text="@string/settings" />
+
+
+
+            <TextView
+                style="@style/viewParent.headerText.settingsMiniTitle"
+                android:text="@string/security"/>
+
+            <TextView
+                style="@style/viewParent.headerText.settingsTextIcon"
+                android:layout_marginTop="10dp"
+                android:id="@+id/txt_change_password"
+                android:text="@string/change_password"
+                app:drawableStartCompat="@drawable/baseline_key_24" />
+
+
+            <TextView
+                style="@style/viewParent.headerText.settingsMiniTitle"
+                android:text="@string/account"/>
+            <TextView
+                style="@style/viewParent.headerText.settingsTextIcon"
+                android:layout_marginTop="10dp"
+                android:id="@+id/txt_delete_account"
+                android:text="@string/delete_account"
+                app:drawableStartCompat="@drawable/baseline_delete_24" />
+
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+    </ScrollView>

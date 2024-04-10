@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "537212569443",
+    "firebase_url": "https://ride-pal-application-c66ff-default-rtdb.firebaseio.com",
+    "project_id": "ride-pal-application-c66ff",
+    "storage_bucket": "ride-pal-application-c66ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537212569443:android:f516a488414889119f7556",
+        "android_client_info": {
+          "package_name": "com.example.ridepal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvM0eVAiOhsUK5vlPZ91ciL6Pm0zpQzgE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

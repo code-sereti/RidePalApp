@@ -1,0 +1,61 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".VerificationActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/contentBodyColor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <TextView
+            style="@style/viewParent.headerText"
+            android:id="@+id/back_home"
+            android:text="@string/user_verify" />
+
+
+        <TextView
+            style="@style/viewParent.headerText.settingsMiniTitle"
+            android:text="@string/phone_verify"/>
+
+        <TextView
+            style="@style/viewParent.headerText.settingsTextIcon"
+            android:layout_marginTop="10dp"
+            android:id="@+id/txt_verify_otp"
+            android:text="@string/otp_phone_verify"
+            app:drawableStartCompat="@drawable/baseline_smartphone_24" />
+
+
+<!--        <TextView-->
+<!--            style="@style/viewParent.headerText.settingsMiniTitle"-->
+<!--            android:text="@string/car"/>-->
+<!--        <TextView-->
+<!--            style="@style/viewParent.headerText.settingsTextIcon"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:id="@+id/txt_car_verify"-->
+<!--            android:text="@string/car_info_verify"-->
+<!--            app:drawableStartCompat="@drawable/baseline_directions_car_24" />-->
+
+
+<!--        <TextView-->
+<!--            style="@style/viewParent.headerText.settingsMiniTitle"-->
+<!--            android:text="@string/identity"/>-->
+<!--        <TextView-->
+<!--            style="@style/viewParent.headerText.settingsTextIcon"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:id="@+id/txt_identity_verify"-->
+<!--            android:text="@string/yourself"-->
+<!--            app:drawableStartCompat="@drawable/baseline_person_24" />-->
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+</ScrollView>

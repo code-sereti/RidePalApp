@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/baseline_home_24"/>
+
+    <item
+        android:id="@+id/create"
+        android:title="Create ride"
+        android:icon="@drawable/baseline_create_24"/>
+    <item
+        android:id="@+id/create_group_ride"
+        android:title="Group ride"
+        android:icon="@drawable/baseline_create_24"/>
+    <item
+        android:id="@+id/ride_history"
+        android:title="Ride History"
+        android:icon="@drawable/baseline_commute_24"/>
+</menu>
